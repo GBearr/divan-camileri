@@ -1,0 +1,47 @@
+.slider-row {
+  position: relative;
+
+  &:hover {
+    .direction-button {
+      opacity: 0.9;
+      z-index: 1;
+    }
+  }
+
+  .direction-button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #0b1827;
+    width: 64px;
+    height: 67px;
+    // height: -webkit-fill-available !important;
+    color: white;
+    opacity: 0;
+    z-index: -1;
+    transition: all ease 0.3s;
+    cursor: pointer;
+    font-size: 12px;
+    box-shadow: 0px 3px 19px #000000;
+
+    &.prev {
+      border-radius: 0px 36px 36px 0px;
+      left: 0;
+      span {
+        transform: rotate(180deg);
+      }
+    }
+
+    &.next {
+      right: 0;
+      border-radius: 36px 0px 0px 36px;
+    }
+
+    &.record {
+      top: calc(50% - 35px - 2.2vw);
+    }
+  }
+}
