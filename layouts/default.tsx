@@ -6,6 +6,8 @@ import { Navbar } from "@/components/navbar";
 import Carousel from "@/components/carousel/carousel";
 import Image from "next/image";
 import tubitak from "@/img/tubitak.svg";
+import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export default function DefaultLayout({
   children,
@@ -14,6 +16,11 @@ export default function DefaultLayout({
   children: React.ReactNode;
   layoutConfig?: "main" | "custom";
 }) {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.replace("/home"); // Kullanıcıyı otomatik olarak /home'a yönlendir
+  }, []);
   return (
     <div className="relative flex flex-col h-screen">
       <Head />
