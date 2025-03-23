@@ -37,9 +37,9 @@ export const Navbar = () => {
         <NavbarItem>
           <ThemeSwitch />
         </NavbarItem>
-        <NavbarItem className="hidden md:flex gap-2">
+        {/* <NavbarItem className="hidden md:flex gap-2">
           <LanguageSelector />
-        </NavbarItem>
+        </NavbarItem> */}
       </NavbarContent>
 
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">

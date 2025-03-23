@@ -8,14 +8,14 @@ import { mosqueMockup } from "@/config/mosqueMockup";
 import { mirasMockup } from "@/config/mirasMockup";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { mirasMockup2 } from "@/config/mirasMockup2";
 
 export default function MirasPage() {
   const router = useRouter();
   const { id } = router.query;
 
-  console.log("Miras PAge");
-
-  console.log("Id", router.query);
+  const data = id === "1" ? mirasMockup.miras : mirasMockup2.miras;
+  const route = id === "1" ? "/kadioglumiras" : "/kasabamiras";
 
   return (
     <DefaultLayout>
@@ -24,7 +24,7 @@ export default function MirasPage() {
           Miras
         </h1>
         <div className="py-10 grid grid-cols-1 sm:grid-cols-3 gap-20 w-full max-w-8xl">
-          {mirasMockup.miras.map((item) => (
+          {data.map((item) => (
             <Card
               key={item.id}
               isFooterBlurred
@@ -49,7 +49,7 @@ export default function MirasPage() {
                   variant="flat"
                   radius="md"
                 >
-                  <Link href={`/kadioglumiras/${item.id}`}>Daha Fazla</Link>
+                  <Link href={`${route}/${item.id}`}>Daha Fazla</Link>
                 </Button>
               </CardFooter>
             </Card>

@@ -29,7 +29,7 @@ export const ProjectComponent = () => {
     <div className="p-6">
       <div className={title()}>{project.name}</div>
       <div className="mt-4">
-        <ul className="list-disc pl-5 text-lg text-default-600 py-10">
+        <ul className="list-disc pl-5 text-lg text-default-600 py-10 text-justify">
           {formattedDescription}
         </ul>
       </div>

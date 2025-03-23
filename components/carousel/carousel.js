@@ -53,11 +53,14 @@ export default function SimpleSlider() {
               className="border-none"
               radius="leg"
             >
-              <Image
-                className="rounded-lg"
-                src={mosque.image}
-                alt={mosque.name}
-              />
+              <div className="relative w-full h-[800px]">
+                <Image
+                  src={mosque.image}
+                  alt={mosque.name}
+                  fill
+                  className="object-cover rounded-lg transition-transform duration-500 ease-in-out hover:scale-105"
+                />
+              </div>
               <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-2 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
                 <p className="text-tiny text-white/80">{mosque.name}</p>
                 <Link href={`/detail/${mosque.id}`}>

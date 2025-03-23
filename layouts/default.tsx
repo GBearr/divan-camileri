@@ -18,9 +18,9 @@ export default function DefaultLayout({
 }) {
   const router = useRouter();
 
-  useEffect(() => {
-    router.replace("/home"); // Kullanıcıyı otomatik olarak /home'a yönlendir
-  }, []);
+  // useEffect(() => {
+  //   router.replace("/home"); // Kullanıcıyı otomatik olarak /home'a yönlendir
+  // }, []);
   return (
     <div className="relative flex flex-col h-screen">
       <Head />

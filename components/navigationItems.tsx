@@ -36,7 +36,7 @@ export const NavigationItems = () => {
             linkStyles({ color: "foreground" }),
             "data-[active=true]:text-primary data-[active=true]:font-medium"
           )}
-          href="/home"
+          href="/"
         >
           Ana Sayfa
         </NextLink>
@@ -185,45 +185,17 @@ export const NavigationItems = () => {
         </NextLink>
       </NavbarItem>
 
-      <div
-        className="relative"
-        onMouseEnter={() => setOpenDropdown(1)}
-        onMouseLeave={() => setOpenDropdown(null)}
-      >
-        <Dropdown isOpen={openDropdown === 1}>
-          <DropdownTrigger>
-            <p
-              className={clsx(
-                linkStyles({ color: "foreground" }),
-                "data-[active=true]:text-primary data-[active=true]:font-medium cursor-pointer"
-              )}
-            >
-              Yayınlar
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 text-default-500"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </p>
-          </DropdownTrigger>
-          <DropdownMenu>
-            <DropdownSection title="Yayınlar">
-              <DropdownItem key={1}>Yayın 1</DropdownItem>
-
-              <DropdownItem key={2}>Yayın 2</DropdownItem>
-            </DropdownSection>
-          </DropdownMenu>
-        </Dropdown>
-      </div>
+      <NavbarItem>
+        <NextLink
+          className={clsx(
+            linkStyles({ color: "foreground" }),
+            "data-[active=true]:text-primary data-[active=true]:font-medium"
+          )}
+          href="/publications"
+        >
+          Yayınlar
+        </NextLink>
+      </NavbarItem>
 
       <NavbarItem>
         <NextLink

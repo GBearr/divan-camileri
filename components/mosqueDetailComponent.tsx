@@ -41,59 +41,35 @@ export const MosqueDetailComponent = () => {
       </div>
 
       <div className="flex gap-20 justify-center">
-        {mosque?._360Path && (
-          <Card isFooterBlurred className="border-none" radius="none">
-            <CardHeader>360 Fotoğraflar</CardHeader>
-            <Image
-              alt="Woman listing to music"
-              className="object-cover"
-              height={350}
-              src={inventory}
-              width={350}
-            />
-            <CardFooter className="flex justify-end">
-              <Button
-                className="font-semibold text-sm text-black bg-white border rounded-none"
-                color="default"
-                size="sm"
-                variant="flat"
-                onClick={() => handleOpenModal()}
-              >
-                Fotoğrafları Görüntüle
-              </Button>
-            </CardFooter>
-          </Card>
-        )}
-        {mosque.id === 14 && (
-          <Card isFooterBlurred className="border-none" radius="none">
-            <CardHeader>Mimari Miras</CardHeader>
-            <Image
-              alt="Woman listing to music"
-              className="object-cover"
-              height={350}
-              src={inventory}
-              width={350}
-            />
-            <CardFooter className="flex justify-end">
-              <Button
-                className="font-semibold text-sm text-black bg-white border rounded-none"
-                color="default"
-                size="sm"
-                variant="flat"
-              >
-                <Link href={"/miras"}>Fotoğrafları Görüntüle</Link>
-              </Button>
-            </CardFooter>
-          </Card>
-        )}
-        {/* <Card isFooterBlurred className="border-none" radius="none">
-          <CardHeader>Somut Olmayan Miras</CardHeader>
+        <Card isFooterBlurred className="border-none" radius="none">
+          <CardHeader>360 Fotoğraflar</CardHeader>
+          <Image
+            alt="Woman listing to music"
+            className="object-cover"
+            height={350}
+            src={mosque.imagePath || inventory}
+            width={350}
+          />
+          <CardFooter className="flex justify-end">
+            <Button
+              className="font-semibold text-sm text-black bg-white border rounded-none"
+              color="default"
+              size="sm"
+              variant="flat"
+              onClick={() => handleOpenModal()}
+            >
+              Fotoğrafları Görüntüle
+            </Button>
+          </CardFooter>
+        </Card>
 
+        <Card isFooterBlurred className="border-none" radius="none">
+          <CardHeader>Mimari Miras</CardHeader>
           <Image
             alt="Woman listing to music"
             className="object-cover"
             height={350}
-            src={inventory}
+            src={mosque.mirasImage || inventory}
             width={350}
           />
           <CardFooter className="flex justify-end">
@@ -103,30 +79,12 @@ export const MosqueDetailComponent = () => {
               size="sm"
               variant="flat"
             >
-              Fotoğrafları Görüntüle
+              <Link href={`/miras/${mosque.mirasId}`}>
+                Fotoğrafları Görüntüle
+              </Link>
             </Button>
           </CardFooter>
-        </Card> */}
-        {/* <Card isFooterBlurred className="border-none" radius="none">
-          <CardHeader>Röportajlar</CardHeader>
-          <Image
-            alt="Woman listing to music"
-            className="object-cover"
-            height={350}
-            src={inventory}
-            width={350}
-          />
-          <CardFooter className="flex justify-end">
-            <Button
-              className="font-semibold text-sm text-black bg-white border rounded-none"
-              color="default"
-              size="sm"
-              variant="flat"
-            >
-              Fotoğrafları Görüntüle
-            </Button>
-          </CardFooter>
-        </Card> */}
+        </Card>
       </div>
       {mosque?._360Path && isModalOpen ? (
         <PanoramaViewerModal
