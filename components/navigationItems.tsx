@@ -41,6 +41,17 @@ export const NavigationItems = () => {
           Ana Sayfa
         </NextLink>
       </NavbarItem>
+      <NavbarItem>
+        <NextLink
+          className={clsx(
+            linkStyles({ color: "foreground" }),
+            "data-[active=true]:text-primary data-[active=true]:font-medium"
+          )}
+          href="/map"
+        >
+          Camini Bul
+        </NextLink>
+      </NavbarItem>
 
       <NavbarItem>
         <NextLink

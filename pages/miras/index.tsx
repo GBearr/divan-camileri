@@ -37,8 +37,7 @@ export default function MirasPage() {
                   alt={item.name}
                   className="object-cover rounded-lg"
                   src={item.imgAdress || inventory}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
                 />
               </div>
               <CardFooter className="flex justify-end mt-auto">

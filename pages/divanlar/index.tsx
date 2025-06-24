@@ -94,8 +94,7 @@ export default function DivanlarPage() {
                       alt={item.name}
                       className="object-cover rounded-lg"
                       src={item.imagePath || inventory}
-                      layout="fill"
-                      objectFit="cover"
+                      fill
                     />
                   </div>
                   <CardFooter className="flex justify-end mt-auto">

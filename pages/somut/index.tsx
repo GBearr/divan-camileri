@@ -95,8 +95,7 @@ export default function SomutPage() {
                       alt={item.name}
                       className="object-cover rounded-lg"
                       src={item.imgPath}
-                      layout="fill"
-                      objectFit="cover"
+                      fill
                     />
                   </div>
                   <CardFooter className="flex justify-end mt-auto">
