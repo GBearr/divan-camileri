@@ -86,7 +86,7 @@ export const kadiogluMimariMirasMockup: { miras: mimariMiras[] } = {
         },
       ],
     },
-    {
+    /*{
       id: 3,
       name: "Bozulma Durumları",
       href: "/kadioglumiras",
@@ -114,6 +114,6 @@ export const kadiogluMimariMirasMockup: { miras: mimariMiras[] } = {
           thumbnail: "/kadioglubozulma/kadioglu-bozulma-5.jpeg",
         },
       ],
-    },
+    },*/
   ],
 };

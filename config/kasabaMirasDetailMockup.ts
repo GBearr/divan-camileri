@@ -28,12 +28,12 @@ export const kasabaMimariMirasMockup: { miras: mimariMiras[] } = {
       description2:
         "Yapı ahşap bindirme tavan ve ahşap konstrüksiyon üzerine kökboyalar ile nakşedilmiş kalemişleri ile ön plana çıkmaktadır. (Şekil 4.8; Şekil 4.9) Akok (1946)’a göre kalem işleri iki farklı usta tarafından icra edilmiştir ve üst üste renklendirmelerin mevcut olduğunu ifade etmiştir. Cami içerinde yer alan ahşap sütunların sütun başları da ahşap oyma tekniği ile mukarnaslıdır.",
     },
-    {
+    /*{
       id: 3,
       name: "Bozulma Durumları",
       href: "/kasabamiras",
       description1:
         "Cephede kullanılan taş malzemede yüzey aşınmaları mevcut. Cephede düzenli taş işçiliği olmasına rağmen taş yüzeylerde, çevresel etkilerden kaynaklanan renk bozulmaları ve küçük ölçekli yüzey kayıpları da gözlenmiştir. Ahşap kolon ve tavan kirişlerinde çürüme, deformasyon ve boya dökülmeleri mevcut. Ahşap tavan kaplamasında işli kök boya bezemelerde pigment kaybı sebebi ile soluklaşmalar ile detayların belirginliği azalmıştır. Mihrabın beyaz sıva yüzeylerinde yüzeysel çatlaklar ve aşınmalar mevcut. Ayrıca mihrap alçı yüzeyde kir tabaka birikmesi izlenmiştir. Tavan strüktürü olan ahşap malzemede kuru çürümeden kaynaklı tozlaşma ve tiftikleşmeler gözlenmiştir. Ahşap dikmeler de uçma delikleri ve kılcal çatlaklar mevcuttur.",
-    },
+    },*/
   ],
 };

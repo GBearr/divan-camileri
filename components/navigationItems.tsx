@@ -41,7 +41,7 @@ export const NavigationItems = () => {
           Ana Sayfa
         </NextLink>
       </NavbarItem>
-      <NavbarItem>
+      {/* <NavbarItem>
         <NextLink
           className={clsx(
             linkStyles({ color: "foreground" }),
@@ -51,7 +51,7 @@ export const NavigationItems = () => {
         >
           Camini Bul
         </NextLink>
-      </NavbarItem>
+      </NavbarItem> */}
 
       <NavbarItem>
         <NextLink
