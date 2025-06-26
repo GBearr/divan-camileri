@@ -10,5 +10,5 @@ COPY . .
 RUN npm run build
 
 EXPOSE 3003
-
-CMD ["npm", "start"]
+ENV HOST=0.0.0.0 PORT=3003
+CMD ["npm", "run", "start"]
