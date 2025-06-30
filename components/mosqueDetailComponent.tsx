@@ -79,9 +79,7 @@ export const MosqueDetailComponent = () => {
               size="sm"
               variant="flat"
             >
-              <Link href={`/mimarimiras/${mosque.mirasId}`}>
-                Fotoğrafları Görüntüle
-              </Link>
+              <Link href={`/mimarimiras/${id}`}>Fotoğrafları Görüntüle</Link>
             </Button>
           </CardFooter>
         </Card>

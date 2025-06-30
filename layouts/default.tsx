@@ -33,7 +33,6 @@ export default function DefaultLayout({
         <main className="container mx-auto flex-grow ">{children}</main>
       )}
       <footer className="w-full flex flex-col gap-2 items-center justify-center py-3 bg-teal-700">
-        <Image alt="tubitak" src={tubitak} />
         <span className="text-foreground text-semibold text-sm">
           "Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK)
           tarafından 222K339 Numaralı proje ile desteklenmiştir. Projeye verdiği

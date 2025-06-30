@@ -1,5 +1,5 @@
+import { HikayeDetailComponent } from "@/components/hikayeDetailComponent";
 import DefaultLayout from "@/layouts/default";
-import { HikayeDetailComponent } from "@/components/hilayeDetailComponent";
 
 export default function MirasDetail() {
   return (
