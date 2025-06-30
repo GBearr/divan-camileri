@@ -30,6 +30,11 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Çörekçi Köyü",
       description:
         "Devrekani kent merkezinin kuzeydoğusunda yer alan Cami, Çörekçi Köyü sınırları içinde Elmalı Mahallesindedir. Güneyinden Meydan çayı akmaktadır. 2021 tarihinde yaşanan sel felaketinden etkilenmiştir. Yapının bir kitabesi bulunmadığı için yapım tarihi bilinememektedir.",
+      _360Path: [
+        "/360/corekci-ic-1.jpg",
+        "/360/corekci-ic-2.jpg",
+        "/360/corekci-ic-3.jpg",
+      ],
     },
     {
       id: 3,
@@ -54,7 +59,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Kurt Köyü",
       description:
         "Devrekani kent merkezinin kuzeydoğusunda yer alan Cami, Kurt Köyü sınırları içinde Çirişoğlu Mahallesindedir. Köy sınırında olan cami düz bir arazide kurulmuş ve çevresinde tarlalar mevcuttur. Cami hazire ve imam evi ile bir bahçe içerisinde yer almaktadır. Bahçe içerisinde bir anıt ağaç vardır.",
-      _360Path: ["/360/kurt.jpg", "/360/kurt-ic.jpg"],
+      _360Path: ["/360/kurt.jpg", "/360/kurt-ic.jpg", "/360/kurt-3.jpg"],
     },
     {
       id: 6,
@@ -152,6 +157,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Duruçay Köyü",
       description:
         "Kastamonu kent merkezinin kuzeyinde yer alan Cami, halk arasında camili köy olarak bilinen Duruçay köyü sınırları içindedir. Cami kitabesine göre; Candaroğulları döneminde üst düzey asker olan Halil Bey tarafından 1363 M. Tarihinde yaptırıldığı anlaşılmaktadır. Cami kırsal yerleşim sahasında, devşirme malzeme kullanıldığı tespit edilen tek yapıdır.",
+      _360Path: ["/360/durucay-1.jpg", "/360/durucay-2.jpg"],
     },
     {
       id: 16,
@@ -160,7 +166,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Talipler Köyü",
       description:
         "Kastamonu kent merkezinin kuzeybatısında yer alan Cami, Talipler Köyü sınırları içindedir. Yapı Kanuni Sultan Süleyman’ın Sadrazamı Rüstem Paşa tarafından 1530 yılında yaptırılmıştır. Cami Talipler köyünden 15 km uzaklıkta Menekşe tepesinde inşa edilmiştir. Caminin yapıldığı dönemde de var olabileceği düşünülen dergâh yapısı 50 yıl öncesine kadar aş evi olarak da kullanıldığı, ahşap strüktüre sahip olduğu, caminin kuzey batı bahçe duvarına sınırı olduğu ifade edilmiştir. Caminin yapılışı hakkında da yöre halkı arasında rivayetler-mitler vardır. Caminin ALLAH dostu bir kimse tarafından geyiklerin malzemeleri taşıması ile gece vakitlerinde yaptığı sonrasında köy halkının bu kimsenin sözünü dinlememesi ile o zaman bu caminin çevresi viran olsun diyerek dua ettiği, o zamandan bu yana da caminin çevresinde yerleşim yerinin kurulamadığı ifade edilmektedir.",
-      _360Path: ["/360/rustem-pasa.jpg"],
+      _360Path: ["/360/rustem-pasa.jpg", "/360/talipler-1.jpg"],
     },
     {
       id: 17,
@@ -211,6 +217,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Emir Köyü",
       description:
         "Kastamonu kent merkezinin güneydoğusunda yer alan Cami, Emir Köyü sınırları içerisinde köyden 3 km daha güneydoğuda yer almaktadır. Caminin kuzeyinden köyün ana yolu, doğusunda önceleri okul olarak kullanılmış iki katlı bina, güney cephesinde tarlalar ve batısında boş düz arsa yer almaktadır. Yapının bir kitabesi bulunmadığı için yapım tarihine dair bir bilgi elde edilememiştir. Vakıflar Arşivinde Mescidi Cuma Cami olarak ifade edilmiştir.",
+      _360Path: ["/360/emir-1.jpg", "/360/emir-2.jpg"],
     },
 
     // Kuzyaka Nahiyesi
@@ -221,6 +228,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Ümit Köyü",
       description:
         "Kastamonu kent merkezinin güneyinde yer alan Cami, Ümit Köyü sınırları içinde Kavun Mahallesindedir. Yapının bir kitabesi bulunmadığı için yapım tarihi bilinememektedir.",
+      _360Path: ["/360/umit-1.jpg", "/360/umit-2.jpg"],
     },
     {
       id: 24,
@@ -269,6 +277,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Kemerler Köyü",
       description:
         "Kastamonu kent merkezinin güneyinde yer alan Cami Kemerler Köyü sınırları içindedir. Kitabesinden 1879 M. Tarihinde Hacı İsmail Ağa tarafından yaptırıldığı anlaşılmaktadır. Kitabede Cuma ve Bayram namazlarının da kılınabilmesi için caminin kullanılabileceğinden bahsedilmiştir.",
+      _360Path: ["/360/kemerler-1.jpg", "/360/kemerler-2.jpg"],
     },
     {
       id: 30,
