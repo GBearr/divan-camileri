@@ -33,17 +33,18 @@ export default function DefaultLayout({
         <main className="container mx-auto flex-grow ">{children}</main>
       )}
       <footer className="w-full flex flex-col gap-2 items-center justify-center py-3 bg-teal-700">
-        <span className="text-foreground text-semibold text-sm">
-          "Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK)
-          tarafından 222K339 Numaralı proje ile desteklenmiştir. Projeye verdiği
-          destekten ötürü TÜBİTAK'a teşekkürlerimizi sunarız."
+        <span className="w-full text-center text-foreground font-semibold text-sm">
+          Bu çalışma, Türkiye Bilimsel ve Teknolojik Araştırma Kurumu (TÜBİTAK)
+          tarafından 222K339 numaralı proje ile desteklenmiştir. Projeye verdiği
+          destekten ötürü TÜBİTAK'a teşekkürlerimizi sunarız.
         </span>
+
         <Link
           isExternal
           className="flex flex-col items-center gap-2 text-current"
           href="https://unis.kastamonu.edu.tr/akademisyen/gokcengokgoz"
         >
-          <span className="text-foreground text-semibold text-sm py-5 underline underline-offset-4go">
+          <span className="text-foreground font-semibold text-sm py-5 underline">
             Öğr. Gör. Gökçen GÖKGÖZ GEDİK
           </span>
         </Link>
