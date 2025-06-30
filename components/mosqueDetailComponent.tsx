@@ -44,7 +44,7 @@ export const MosqueDetailComponent = () => {
         <Card isFooterBlurred className="border-none" radius="none">
           <CardHeader>360 Fotoğraflar</CardHeader>
           <Image
-            alt=""
+            alt="miras image"
             className="object-cover"
             height={350}
             src={mosque.imagePath || inventory}
