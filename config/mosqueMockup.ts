@@ -21,7 +21,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       description:
         "Devrekani kent merkezinin kuzeyinde de yer alan Cami, Kadıoğlu köyü sınırları içinde yer almaktadır. Cami Kadıoğlu Köyü ile Saraydurak Köyü arasında vadi tabanında inşa edilmiştir. Caminin mevki “Cami Yanı” olarak geçmektedir. Camiye giden köy yolu 2021 yılı Eylül ayında gerçekleşen sel felaketi sonucu kapanmıştır. Günümüzde vadide oluşturulan patika yoldan ulaşım sağlanmaktadır.",
       mirasImage: "/cardimgs/kadioglu-miras.jpeg",
-      imagePath: "/cardimgs/1-kadioglu-cami.jpg",
+      imagePath: "/cardimgs/1-kadioglu-cami.JPG",
       _360Path: ["/360/kadioglu.jpg"],
     },
     {
@@ -36,6 +36,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
         "/360/corekci-ic-2.jpg",
         "/360/corekci-ic-3.jpg",
       ],
+      imagePath: "/cardimgs/2-corekci-cami.JPG",
     },
     {
       id: 3,
@@ -44,6 +45,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Şenlik Köyü",
       description:
         "Devrekani kent merkezinin kuzeyinde yer alan Cami, Şenlik Köyü sınırları içinde Delimusa Mahallesindedir. Şenlik köyü Pazar yerine 3 km uzakta yer alan cami eğimli bir arazide mahale sınırındadır. Kitabesi bulunmadığı için kapının yanında saç levhaya yazılan H.1312 tarihi yapım yılı olarak kabul edilmiştir.",
+      imagePath: "/cardimgs/3-delimusa-cami.JPG",
     },
     {
       id: 4,
@@ -52,6 +54,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Akdoğan Köyü",
       description:
         "Devrekani kent merkezinin kuzeydoğunda yer alan Cami, Akdoğan Köyü sınırları içindedir. Yapının güneybatı cephesinde yer alan kitabede 1416 tarihi yazmaktadır, lakin köy halkı ile yapılan görüşmeler sonucu var olan kitabenin başka bir camiye ait olduğu öğrenilmiştir.",
+      imagePath: "/cardimgs/4-akdogan-cami.jpg",
     },
     {
       id: 5,
@@ -61,6 +64,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       description:
         "Devrekani kent merkezinin kuzeydoğusunda yer alan Cami, Kurt Köyü sınırları içinde Çirişoğlu Mahallesindedir. Köy sınırında olan cami düz bir arazide kurulmuş ve çevresinde tarlalar mevcuttur. Cami hazire ve imam evi ile bir bahçe içerisinde yer almaktadır. Bahçe içerisinde bir anıt ağaç vardır.",
       _360Path: ["/360/kurt.jpg", "/360/kurt-ic.jpg", "/360/kurt-3.jpg"],
+      imagePath: "/cardimgs/5-kurt-cami.JPG",
     },
     {
       id: 6,
@@ -69,6 +73,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Yazıbelen Köyü",
       description:
         "Devrekani kent merkezinin kuzeyinde yer alan Cami, Yazıbelen Köyü sınırları içindedir. Kapısının üzerinde yer alan kitabede 1159 Hicri tarihli bir tamirden bahsetmektedir. Bundan kaynaklı yapının yapım tarihinin 1159 Hicri tarihinden önce yapıldığı anlaşılmaktadır. Halk arasında Kıvraç Cami olarak bilinen yapının yapıldığı tarihten sonra çevresinde yerleşim yerinin oluştuğu ifade edilmiştir.",
+      imagePath: "/cardimgs/6-yazibelen-cami.JPG",
     },
     {
       id: 7,
@@ -77,6 +82,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Bozkocatepe Köyü",
       description:
         "Devrekani kent merkezinin kuzeyinde yer alan Cami, Bozkocatepe Köyü sınırları içindedir. Kapısının üzerinde yer alan kitabede 1578 tarihinde yapıldığı yazmaktadır.",
+      imagePath: "/cardimgs/7-bozkocatepe-cami.jpg",
     },
     {
       id: 8,
@@ -86,6 +92,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       description:
         "Devrekani kent merkezinin kuzeydoğusunda yer alan Cami, Doğuörcün Köyü sınırları içindedir. En yakın yerleşim yeri 1 km uzaklıkta Ulamış Köyü Biyo Mahallesidir. Tarlalarla çevrili düz bir arazide inşa edilmiştir. Yapının kitabesi yoktur. Biyo Mahallesi sakinleri ile yapılan görüşmeden yapının 18. yy.dan sonra yapıldığı düşünülmüştür.",
       _360Path: ["/360/beyoglu-1.jpg", "/360/beyoglu-2.jpg"],
+      imagePath: "/cardimgs/8-doguorcun-cami.JPG",
     },
     {
       id: 9,
@@ -99,6 +106,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
         "/360/cinoglu-2.jpg",
         "/360/cinoglu-3.jpg",
       ],
+      imagePath: "/cardimgs/9-kir-cami.JPG",
     },
     {
       id: 10,
@@ -107,6 +115,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Çayırcık Mahallesi",
       description:
         "Devrekani kent merkezinin batısında yer alan Cami, Çayırcık mahallesi sınırları içindedir. Cami Candaroğlu Beyi İsmail Bey tarafından 1455 yılında ilk yapıldığı mescidin genişletilmesi amacı ile yeniden yaptırılmıştır. Arşiv kayıtlarından saray yapılarının da cami çevresinde olduğu ve caminin devlet dairesi olarak da kullanıldığı anlaşılmaktadır (Çiftçi, 2018)",
+      imagePath: "/cardimgs/10-cayircik-cami.jpg",
     },
     {
       id: 11,
@@ -116,6 +125,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       description:
         "Devrekani kent merkezinin kuzeydoğusunda yer alan Cami, Kadirbey Mahallesi sınırları içindedir. En yakın yerleşim yeri 100 m uzaklıkta Duran Küme Evlerdir. Mera ve tarlalarla çevrili düz bir arazide inşa edilmiştir. Yapının kitabesi yoktur.",
       _360Path: ["/360/duran-ic.jpg"],
+      imagePath: "/cardimgs/11-duran-cami.jpg",
     },
     {
       id: 12,
@@ -124,6 +134,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Çontay Köyü",
       description:
         "Devrekani kent merkezinin doğusunda yer alan Cami, Çontay Köyü sınırları içindedir. En yakın yerleşim yeri 1500 m uzaklıkta Çorbacı Köyü Gelinoğlu Mahallesidir. Orman ve tarla alanları ile çevrili düz bir arazide inşa edilmiştir. Yapının kitabesi yoktur. Arşiv kayıtlarına göre 1566 yılından önce yapıldığı anlaşılmaktadır.",
+      imagePath: "/cardimgs/12-lala-cami.JPG",
     },
 
     // Göl Nahiyesi
@@ -134,6 +145,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Halife Köyü",
       description:
         "Kastamonu kent merkezinin kuzeybatısında yer alan Cami, Halife Köyü sınırları içindedir. Yapının bir kitabesi bulunmadığı için yapım tarihi bilinememektedir.",
+      imagePath: "/cardimgs/14-halife-cami.jpg",
     },
     {
       id: 14,
@@ -150,6 +162,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
         "/360/kasaba-ic-2.jpg",
         "/360/kasaba-ic-3.jpg",
       ],
+      imagePath: "/cardimgs/15-kasaba-cami.jpg",
     },
     {
       id: 15,
@@ -159,6 +172,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       description:
         "Kastamonu kent merkezinin kuzeyinde yer alan Cami, halk arasında camili köy olarak bilinen Duruçay köyü sınırları içindedir. Cami kitabesine göre; Candaroğulları döneminde üst düzey asker olan Halil Bey tarafından 1363 M. Tarihinde yaptırıldığı anlaşılmaktadır. Cami kırsal yerleşim sahasında, devşirme malzeme kullanıldığı tespit edilen tek yapıdır.",
       _360Path: ["/360/durucay-1.jpg", "/360/durucay-2.jpg"],
+      imagePath: "/cardimgs/16-durucay-cami.JPG",
     },
     {
       id: 16,
@@ -349,15 +363,15 @@ const imageFiles = [
   "16-durucay-cami.jpg",
   "18-talipler-cami.jpg",
   "19-seyh-cami.jpg",
-  "20-kayali-cami.jpg",
-  "21-pehlivan-cami.jpg",
-  "22-karamukmolla-cami.jpg",
+  "20-kayali-cami.JPG",
+  "21-pehlivan-cami.JPG",
+  "22-karamukmolla-cami.JPG",
   "24-eceoglu-cami.jpg",
-  "25-emir-cami.jpg",
+  "25-emir-cami.JPG",
   "26-umit-cami.jpg",
   "27-esenli-cami.jpg",
-  "28-seyh-cami.jpg",
-  "29-alpi-cami.jpg",
+  "28-seyh-cami.JPG",
+  "29-alpi-cami.JPG",
   "30-mescit-cami.jpg",
   "31-dere-cami.jpg",
   "32-kemerler-cami.jpg",
@@ -366,13 +380,12 @@ const imageFiles = [
   "35-karacomak-cami.jpg",
   "36-benlisultan-cami.jpg",
   "37-huseyinli-cami.jpg",
-  "38-fadira-cami.jpg",
+  "38-fadira-cami.JPG",
 ];
 
 const _360files = [, ""];
 
 mosqueMockup.mosque = mosqueMockup.mosque.map((mosque, index) => {
   mosque.imagePath = `/cardimgs/${imageFiles[index] || "default.jpg"}`;
-  ("/cardimgs/1-kadioglu-cami.jpg");
   return mosque;
 });
