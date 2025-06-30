@@ -21,6 +21,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       description:
         "Devrekani kent merkezinin kuzeyinde de yer alan Cami, Kadıoğlu köyü sınırları içinde yer almaktadır. Cami Kadıoğlu Köyü ile Saraydurak Köyü arasında vadi tabanında inşa edilmiştir. Caminin mevki “Cami Yanı” olarak geçmektedir. Camiye giden köy yolu 2021 yılı Eylül ayında gerçekleşen sel felaketi sonucu kapanmıştır. Günümüzde vadide oluşturulan patika yoldan ulaşım sağlanmaktadır.",
       mirasImage: "/cardimgs/kadioglu-miras.jpeg",
+      imagePath: "/cardimgs/1-kadioglu-cami.jpg",
       _360Path: ["/360/kadioglu.jpg"],
     },
     {
@@ -372,5 +373,6 @@ const _360files = [, ""];
 
 mosqueMockup.mosque = mosqueMockup.mosque.map((mosque, index) => {
   mosque.imagePath = `/cardimgs/${imageFiles[index] || "default.jpg"}`;
+  ("/cardimgs/1-kadioglu-cami.jpg");
   return mosque;
 });
