@@ -27,11 +27,11 @@ export const somutMockup: { somut: Somut[] } = {
     {
       id: 2,
       name: "Talipler Köyü, Rüstem Paşa Cami - Divan Mevlüdü 2024",
-      imgPath: "/rustem-pasa/rustem-pasa-1.jpg",
+      imgPath: "/assets/rustem-pasa/rustem-pasa-1.jpg",
       imagePaths: [
-        "/rustem-pasa/rustem-pasa-1.jpg",
-        "/rustem-pasa/rustem-pasa-2.jpg",
-        "/rustem-pasa/rustem-pasa-3.jpg",
+        "/assets/rustem-pasa/rustem-pasa-1.jpg",
+        "/assets/rustem-pasa/rustem-pasa-2.jpg",
+        "/assets/rustem-pasa/rustem-pasa-3.jpg",
       ],
     },
   ],
