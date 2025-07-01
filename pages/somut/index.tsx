@@ -72,6 +72,8 @@ function FlipCard({
 }
 
 export default function SomutPage() {
+  const localLoader = ({ src }: { src: string }) => src;
+
   return (
     <DefaultLayout>
       <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
@@ -92,6 +94,8 @@ export default function SomutPage() {
                   <CardHeader className="text-center">{item.name}</CardHeader>
                   <div style={{ height: 400 }} className="relative w-full">
                     <Image
+                      loader={localLoader}
+                      unoptimized
                       alt={item.name}
                       className="object-cover rounded-lg"
                       src={item.imgPath}
