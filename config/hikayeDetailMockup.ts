@@ -110,7 +110,7 @@ export const hikayeDetailMockup: { hikaye: mimariHikaye[] } = {
       imagePaths: [
         {
           number: "",
-          path: "/koyler/doguorcun/1000084360.jpg",
+          path: "/koyler/doguorcun/metin-disi/1000084360.jpg",
         },
       ],
     },
