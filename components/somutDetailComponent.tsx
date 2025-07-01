@@ -59,6 +59,7 @@ export const SomutDetailComponent: React.FC = () => {
                 sizes="(max-width: 768px) 100vw, 80vw"
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 priority={i === 0}
+                unoptimized
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
 
