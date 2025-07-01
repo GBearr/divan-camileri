@@ -68,11 +68,11 @@ export const mimariDetailMockup: { miras: mimariMiras[] } = {
         {
           number:
             "Şekil 4. 15. Çörekçi Köyü, Elmalı Mahalle Cami; kadınlar mahfili balkon",
-          path: "/koyler/corekci/sekil-4.15-1.JPG",
+          path: "/koyler/corekci/sekil-4.15-1.jpg",
         },
         {
           number: "Şekil 4.15 kadınlar mahfili",
-          path: "/koyler/corekci/sekil-4.15-2.JPG",
+          path: "/koyler/corekci/sekil-4.15-2.jpg",
         },
         {
           number:
@@ -141,24 +141,24 @@ export const mimariDetailMockup: { miras: mimariMiras[] } = {
         {
           number:
             "Şekil 4. 28. Akdoğan Köyü, Divan Cami; kuzeydoğu - giriş cephesi ",
-          path: "/koyler/senlik/sekil-4.28.jpg",
+          path: "/koyler/akdogan/sekil-4.28.jpg",
         },
         {
           number:
             "Şekil 4. 29. Akdoğan Köyü, Divan Cami; güneydoğu - mihrap cephesi ",
-          path: "/koyler/senlik/sekil-4.29.jpg",
+          path: "/koyler/akdogan/sekil-4.29.jpg",
         },
         {
           number: "Şekil 4. 30. Akdoğan Köyü, Divan Camii, mihrap cephesi ",
-          path: "/koyler/senlik/sekil-4.30-1.JPG",
+          path: "/koyler/akdogan/sekil-4.30-1.JPG",
         },
         {
           number: "Şekil 4.30 mahfil ",
-          path: "/koyler/senlik/sekil-4.30-2.JPG",
+          path: "/koyler/akdogan/sekil-4.30-2.JPG",
         },
         {
           number: "Şekil 4. 31. Akdoğan Köyü, Divan Cami; tavan göbeği detayı ",
-          path: "/koyler/senlik/sekil-4.31.jpg",
+          path: "/koyler/akdogan/sekil-4.31.jpg",
         },
       ],
     },
@@ -743,17 +743,17 @@ export const mimariDetailMockup: { miras: mimariMiras[] } = {
         },
         {
           number: "Şekil 4. 128. Ümit Köyü, Beycebey Cami; mihrap cephesi",
-          path: "/koyler/umit/sekil-4.128-1.jpg",
+          path: "/koyler/umit/sekil-4.128-1.JPEG",
         },
         {
           number:
             "Şekil 4. 128. Ümit Köyü, Beycebey Cami; mahfil ve son cemaat yeri ",
-          path: "/koyler/umit/sekil-4.128-2.jpg",
+          path: "/koyler/umit/sekil-4.128-2.JPEG",
         },
         {
           number:
             "Şekil 4. 129 Ümit Köyü, Beycebey Cami;cümle kapısının açıldığı ek yapı",
-          path: "/koyler/umit/sekil-4.129-2.jpg",
+          path: "/koyler/umit/sekil-4.129-2.JPEG",
         },
       ],
     },

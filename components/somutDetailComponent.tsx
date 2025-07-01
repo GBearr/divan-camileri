@@ -24,12 +24,6 @@ export const SomutDetailComponent: React.FC = () => {
 
   if (!somut) return <div>Somut Olmayan Miras bulunamadı</div>;
 
-  /**
-   * somut.imagePaths örnek yapıları:
-   *  1) ["path1.jpg", "path2.jpg"]
-   *  2) [{ path: "path1.jpg", number: "Figür-1" }, ...]
-   * İkisini de destekleyecek şekilde normalize ediyoruz.
-   */
   const paths = somut.imagePaths.map((p: any, idx: number) => ({
     src: typeof p === "string" ? p : p.path,
     label:
@@ -37,6 +31,8 @@ export const SomutDetailComponent: React.FC = () => {
         ? `${idx + 1}/${somut.imagePaths.length}`
         : (p.number ?? `${idx + 1}/${somut.imagePaths.length}`),
   }));
+
+  console.log("Paths : ", paths);
 
   return (
     <section className="px-4 md:px-6 pb-16">
@@ -64,9 +60,8 @@ export const SomutDetailComponent: React.FC = () => {
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                 priority={i === 0}
               />
-              {/* üstten degrade */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none" />
-              {/* sıra etiketi */}
+
               <span className="absolute top-4 left-1/2 -translate-x-1/2 text-center px-4 py-1 rounded-full bg-black/50 text-white text-sm md:text-base tracking-wider backdrop-blur-sm">
                 {label}
               </span>
