@@ -105,7 +105,7 @@ export const mimariDetailMockup: { miras: mimariMiras[] } = {
         },
         {
           number: "Şekil 4.22 mahfil ve son cemaat yeri ",
-          path: "/koyler/senlik/sekil-4.22-2.JPG",
+          path: "/koyler/senlik/sekil-4.22-2.jpg",
         },
         {
           number:
@@ -119,16 +119,16 @@ export const mimariDetailMockup: { miras: mimariMiras[] } = {
         {
           number:
             "Şekil 4. 24. Şenlik Köyü, Delimusa Mahalle Cami; kuzeydoğu cephesi iç duvar",
-          path: "/koyler/senlik/sekil-4.24-1.JPG",
+          path: "/koyler/senlik/sekil-4.24-1.jpg",
         },
         {
           number: "Şekil 4.24 kadınlar mahfili dikme ve kiriş detayları",
-          path: "/koyler/senlik/sekil-4.24-2.JPG",
+          path: "/koyler/senlik/sekil-4.24-2.jpg",
         },
         {
           number:
             "Şekil 4.24 kadınlar mahfili dikme ve kiriş detayları tavan detayları",
-          path: "/koyler/senlik/sekil-4.24-3.JPG",
+          path: "/koyler/senlik/sekil-4.24-3.jpg",
         },
       ],
     },
@@ -498,24 +498,24 @@ export const mimariDetailMockup: { miras: mimariMiras[] } = {
         {
           number:
             "Şekil 4. 88. Halil Bey Cami giriş cephesi 2015 müdahale öncesi",
-          path: "/koyler/durucay/sekil-4.88-1.JPG",
+          path: "/koyler/durucay/sekil-4.88-1.jpg",
         },
         {
           number: "Şekil 4. 88. Halil Bey Cami giriş cephesi müdahale sonrası",
-          path: "/koyler/durucay/sekil-4.88-2.JPG",
+          path: "/koyler/durucay/sekil-4.88-2.jpg",
         },
         {
           number:
             "Şekil 4. 89. Halil Bey Cami Harim, Mihrap ve sonradan açılan kapı",
-          path: "/koyler/durucay/sekil-4.89.JPG",
+          path: "/koyler/durucay/sekil-4.89.jpg",
         },
         {
           number: "Şekil 4. 90. Halil Bey Cami çıta kari tavan detayı",
-          path: "/koyler/durucay/sekil-4.90-1.JPG",
+          path: "/koyler/durucay/sekil-4.90-1.jpg",
         },
         {
           number: "Şekil 4. 90. Halil Bey Cami tavan göbeği bezeme detayı ",
-          path: "/koyler/durucay/sekil-4.90-2.JPG",
+          path: "/koyler/durucay/sekil-4.90-2.jpg",
         },
         {
           number:
@@ -535,7 +535,7 @@ export const mimariDetailMockup: { miras: mimariMiras[] } = {
         {
           number:
             "Şekil 4. 92. Halil Bey Cami bahçesinde yer alan iyon sütun başlığından devşirilmiş musalla taşı",
-          path: "/koyler/durucay/sekil-4.92-2.JPG",
+          path: "/koyler/durucay/sekil-4.92-2.jpg",
         },
       ],
     },

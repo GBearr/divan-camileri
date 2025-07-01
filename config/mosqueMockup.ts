@@ -44,7 +44,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Şenlik Köyü",
       description:
         "Devrekani kent merkezinin kuzeyinde yer alan Cami, Şenlik Köyü sınırları içinde Delimusa Mahallesindedir. Şenlik köyü Pazar yerine 3 km uzakta yer alan cami eğimli bir arazide mahale sınırındadır. Kitabesi bulunmadığı için kapının yanında saç levhaya yazılan H.1312 tarihi yapım yılı olarak kabul edilmiştir.",
-      mirasImage: "/koyler/senlik/sekil-4.19.jpg",
+      mirasImage: "/koyler/senlik/sekil-4.21-1.JPG",
     },
     {
       id: 4,
@@ -53,7 +53,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Akdoğan Köyü",
       description:
         "Devrekani kent merkezinin kuzeydoğunda yer alan Cami, Akdoğan Köyü sınırları içindedir. Yapının güneybatı cephesinde yer alan kitabede 1416 tarihi yazmaktadır, lakin köy halkı ile yapılan görüşmeler sonucu var olan kitabenin başka bir camiye ait olduğu öğrenilmiştir.",
-      mirasImage: "/koyler/akdogan/sekil-4.28.jpg",
+      mirasImage: "/koyler/akdogan/sekil-4.30-1.JPG",
     },
     {
       id: 5,
@@ -105,7 +105,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
         "/360/cinoglu-2.jpg",
         "/360/cinoglu-3.jpg",
       ],
-      mirasImage: "/koyler/alacay/sekil-4.56-1.JPG",
+      mirasImage: "/koyler/alacay/sekil-4.57-1.JPG",
     },
     {
       id: 10,
@@ -114,6 +114,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Çayırcık Mahallesi",
       description:
         "Devrekani kent merkezinin batısında yer alan Cami, Çayırcık mahallesi sınırları içindedir. Cami Candaroğlu Beyi İsmail Bey tarafından 1455 yılında ilk yapıldığı mescidin genişletilmesi amacı ile yeniden yaptırılmıştır. Arşiv kayıtlarından saray yapılarının da cami çevresinde olduğu ve caminin devlet dairesi olarak da kullanıldığı anlaşılmaktadır (Çiftçi, 2018)",
+      imagePath: "koyler/cayircik/sekil-4.62-2.JPG",
       mirasImage: "/koyler/cayircik/sekil-4.61-1.JPG",
     },
     {
@@ -133,7 +134,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Çontay Köyü",
       description:
         "Devrekani kent merkezinin doğusunda yer alan Cami, Çontay Köyü sınırları içindedir. En yakın yerleşim yeri 1500 m uzaklıkta Çorbacı Köyü Gelinoğlu Mahallesidir. Orman ve tarla alanları ile çevrili düz bir arazide inşa edilmiştir. Yapının kitabesi yoktur. Arşiv kayıtlarına göre 1566 yılından önce yapıldığı anlaşılmaktadır.",
-      mirasImage: "/koyler/lalapasa/sekil-4.69.JPG",
+      mirasImage: "/koyler/lalapasa/sekil-4.70-1.jpg",
     },
 
     // Göl Nahiyesi
@@ -144,7 +145,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Halife Köyü",
       description:
         "Kastamonu kent merkezinin kuzeybatısında yer alan Cami, Halife Köyü sınırları içindedir. Yapının bir kitabesi bulunmadığı için yapım tarihi bilinememektedir.",
-      mirasImage: "/koyler/halife/sekil-4.74-1.jpg",
+      mirasImage: "/koyler/halife/sekil-4.75-1.jpg",
     },
     {
       id: 14,
@@ -161,7 +162,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
         "/360/kasaba-ic-2.jpg",
         "/360/kasaba-ic-3.jpg",
       ],
-      mirasImage: "/koyler/mahmutbey/sekil-4.78-1.jpg",
+      mirasImage: "/koyler/mahmutbey/sekil-4.79.JPG",
     },
     {
       id: 15,
@@ -190,7 +191,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Göl Köy",
       description:
         "Kastamonu kent merkezinin kuzeyin de yer alan Cami, Gölköy sınırları içindedir. Camiye ait bir kitabe bulunamamıştır. 1206 M. Tarihli vakfiye kaydında caminin adının geçmesi sebebi ile yapım yılının bu tarihten önce olduğu tahmin edilmektedir (Çiftçi, 1995). Şeyh Ahmet Cami bir dergah-zaviyeli camidir. Günümüzde Küçük ölçekte bir külliyeye sahiptir. Caminin doğu tarafında yer alan türbe ve aşevi bulunmaktadır. Yapı inşa edildiği günden beri kullanılmaktadır.",
-      mirasImage: "/koyler/seyhahmet/sekil-4.100-1.jpg",
+      mirasImage: "/koyler/seyhahmet/sekil-4.101-1.jpg",
     },
     {
       id: 18,
@@ -199,7 +200,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Karamukmolla Köyü",
       description:
         "Kastamonu kent merkezinin batısında yer alan Cami, Karamukmolla Köyü, Tekke Mahallesi sınırları içindedir. Yapının bir kitabesi bulunmadığı için yapım tarihi bilinememektedir.",
-      mirasImage: "/koyler/karamukmolla/sekil-4.104-1.JPG",
+      mirasImage: "/koyler/karamukmolla/sekil-4.105-1.JPG",
     },
 
     // Akkaya Nahiyesi
@@ -228,7 +229,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Eceoğlu Köyü",
       description:
         "Kastamonu kent merkezinin Güneydoğusunda yer alan Cami, arazide Eceoğlu köyü sınırları içerisindedir. Yapı 1960 yılında bir yangın sonucu yıkılmış ve 1965 yılında köy halkı tarafından tekrar yanan yapının arazisine günümüzde kullanılan camini inşa etmişlerdir. Somut olmayan mirasın kültürel etkenleri sonucu inşa edilen cami de günümüzde ilkbahar ve yaz aylarına denk gelen bayram namazlarının kılınmaya devam etmektedir. Çevresinde araç yolu olmayan cami hakkında köy halkı arasında da mitler mevcuttur.",
-      mirasImage: "/koyler/eceoglu/sekil-4.117-1.jpg",
+      mirasImage: "/koyler/eceoglu/sekil-4.118-1.jpg",
     },
     {
       id: 22,
@@ -259,7 +260,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Esenli Köyü",
       description:
         "Kastamonu kent merkezinin güneyinde yer alan Cami Esenli Köyü sınırları içinde, arazidedir. Kitabesi bulunmayan caminin 19.yy öncesi yapıldığı sözlü görüşmelerden öğrenilmiştir. 1984 yılında ise var olan divan cami yıkılarak aynı araziye tekrar yeniden cami yapılmış ve divan cami olarak 21 yy başlarına kadar kullanılmaya devam edilmiştir .",
-      mirasImage: "/koyler/senlik/sekil-4.132-1.jpg",
+      mirasImage: "/koyler/sagiroglu/sekil-4.134.jpg",
     },
     {
       id: 25,
@@ -277,7 +278,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Alpı Köyü",
       description:
         "Kastamonu kent merkezinin güneyinde yer alan Cami Alpı Köyü sınırları içindedir.Kitabesi bulunamayan caminin yapılış tarihi müftülük kayıt defterlerinden tespit edilmiştir. Geniş birdüzlükte yer alan caminin bulunduğu parsele 1998 yılında yapılan yeni cami yapılmıştır.",
-      mirasImage: "/koyler/senlik/sekil-4.140-2.jpg",
+      mirasImage: "/koyler/alpi/sekil-4.140-2.jpg",
     },
     {
       id: 27,
@@ -286,7 +287,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Mescid Köyü",
       description:
         "Kastamonu kent merkezinin güneyinde yer alan Cami, Mescit köyü sınırları içerisindedir. Yapı 1955 yılında yıkılan yapının arazisine günümüzde kullanılan camini inşa etmişlerdir. Somut olmayan mirasın kültürel etkenleri sonucu inşa edilen cami de günümüzde ilkbahar ve yaz aylarına denk gelen bayram namazlarının kılınmaya devam etmektedir.",
-      mirasImage: "/koyler/senlik/sekil-4.145-1.JPEG",
+      mirasImage: "/koyler/mescid/sekil-4.146-1.JPEG",
     },
     {
       id: 28,
@@ -295,7 +296,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Saraycık Köyü",
       description:
         "Kastamonu kent merkezinin güneyinde de yer alan Cami, Saraycık Köyü, Dere Mahallesi sınırları içindedir. Yapının yapım tarihi bilinmemektedir. Mahalleye yakın dönemde betonarme yeni bir camii yapıldığı için bugün kullanılmamaktadır. Ağaçlı bahçelerle çevrili camii, doğudan batıya meyilli bir arsa üzerine kurulmuştur.",
-      mirasImage: "/koyler/senlik/sekil-4.149-1.jpg",
+      mirasImage: "/koyler/saraycik/sekil-4.150-1.jpg",
     },
     {
       id: 29,
@@ -305,7 +306,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       description:
         "Kastamonu kent merkezinin güneyinde yer alan Cami Kemerler Köyü sınırları içindedir. Kitabesinden 1879 M. Tarihinde Hacı İsmail Ağa tarafından yaptırıldığı anlaşılmaktadır. Kitabede Cuma ve Bayram namazlarının da kılınabilmesi için caminin kullanılabileceğinden bahsedilmiştir.",
       _360Path: ["/360/kemerler-1.jpg", "/360/kemerler-2.jpg"],
-      mirasImage: "/koyler/senlik/sekil-4.154.JPG",
+      mirasImage: "/koyler/kemerler/sekil-4.154.JPG",
     },
     {
       id: 30,
@@ -314,7 +315,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Çavundur Köyü",
       description:
         "Kastamonu kent merkezinin güneyinde yer alan Cami, Çavundur Köyü sınırları içinde, Bayramlı Küme Evlerine traktör yolu ile 15 km uzaklıktadır. Cami kuzeyden güneye doğru hafif eğimli bir arazi üzerinde bulunmaktadır. Yapının güneyinde ve batısında dere bulunmakta olup kuzeyinde ve doğusunda boş araziler yer almaktadır. Yapının yapım tarihi bilinmemekle birlikte 18. Yy dönemine ait olduğu düşünülmektedir.",
-      mirasImage: "/koyler/senlik/sekil-4.162-1.jpg",
+      mirasImage: "/koyler/cavundur/sekil-4.162-1.jpg",
     },
     {
       id: 31,
@@ -323,7 +324,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Canbaz Köyü",
       description:
         "Kastamonu kent merkezinin güneybatısında yer alan Cami, Cambaz Köyü sınırları içinde, köy merkezinden 3 km batıda inşa edilmiştir. Kitabesi bulunmayan cami 1983 yılında tescil altına alınmıştır.",
-      mirasImage: "/koyler/senlik/sekil-4.168-1.jpg",
+      mirasImage: "/koyler/canbaz/sekil-4.169-1.jpg",
     },
     {
       id: 32,
@@ -332,7 +333,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Karaçomak Köyü",
       description:
         "Kastamonu kent merkezinin Güneybatısında yer alan Cami, arazide Karaçomak köyü sınırları içerisindedir. Yapı müftülük kütük defterine göre 1885 yılında inşa edilmiştir. Günümüzde yan parseline 1998 yılında yapılan yeni cami sebebi ile kullanıma kapatılmıştır.",
-      mirasImage: "/koyler/senlik/sekil-4.173-1.jpg",
+      mirasImage: "/koyler/karacomak/sekil-4.174-1.jpg",
     },
     {
       id: 33,
@@ -341,7 +342,7 @@ export const mosqueMockup: { mosque: Mosque[] } = {
       address: "Ahlat Köyü",
       description:
         "Yapı 1512-1520 yılları arsında Yavuz Sultan Selim tarafından inşa ettirilmiştir. Küçük bir külliye olarak planlanan cami çevresinde günümüze kadar gelmeyen bir medrese yapısı ve kütüphane yapısı olduğu da söylenmektedir. Zaviyeli cami olarak da karşımıza çıkan cami döneminde çevre köylerden Cuma ve bayram namazı için toplanılan bir merkez niteliğindedir.",
-      mirasImage: "/koyler/senlik/sekil-4.179-1.jpg",
+      mirasImage: "/koyler/benlisultan/sekil-4.179-1.jpg",
     },
     {
       id: 34,

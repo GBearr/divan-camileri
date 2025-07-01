@@ -40,42 +40,61 @@ export const MosqueDetailComponent = () => {
         {mosque.description}
       </div>
 
-      <div className="flex gap-20 justify-center">
-        <Card isFooterBlurred className="border-none" radius="none">
-          <CardHeader>360 Fotoğraflar</CardHeader>
-          <Image
-            alt="miras image"
-            className="object-cover"
-            height={350}
-            src={mosque.imagePath || inventory}
-            width={350}
-          />
-          <CardFooter className="flex justify-end">
+      <div className="flex flex-wrap gap-8 justify-center">
+        {/* --- 360 Fotoğraflar --- */}
+        <Card
+          key="360"
+          isFooterBlurred
+          className="flex flex-col w-80 sm:w-96 h-[500px] overflow-hidden" /* eşit yükseklik */
+          radius="none"
+        >
+          <CardHeader className="text-center">360 Fotoğraflar</CardHeader>
+
+          {/* Sabit oran kutu */}
+          <div className="relative w-full flex-1 aspect-[4/3]">
+            <Image
+              src={mosque.imagePath || inventory}
+              alt={`${mosque.name} 360`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+
+          <CardFooter className="mt-auto flex justify-end">
             <Button
+              onClick={handleOpenModal}
               className="font-semibold text-sm text-black bg-white border rounded-none"
-              color="default"
               size="sm"
               variant="flat"
-              onClick={() => handleOpenModal()}
             >
               Fotoğrafları Görüntüle
             </Button>
           </CardFooter>
         </Card>
 
-        <Card isFooterBlurred className="border-none" radius="none">
-          <CardHeader>Mimari Miras</CardHeader>
-          <Image
-            alt="Woman listing to music"
-            className="object-cover"
-            height={350}
-            src={mosque.mirasImage || inventory}
-            width={350}
-          />
-          <CardFooter className="flex justify-end">
+        {/* --- Mimari Miras --- */}
+        <Card
+          key="mimarimiras"
+          isFooterBlurred
+          className="flex flex-col w-80 sm:w-96 h-[500px] overflow-hidden"
+          radius="none"
+        >
+          <CardHeader className="text-center">Mimari Miras</CardHeader>
+
+          <div className="relative w-full flex-1 aspect-[4/3]">
+            <Image
+              src={mosque.mirasImage || inventory}
+              alt={`${mosque.name} mimari`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
+
+          <CardFooter className="mt-auto flex justify-end">
             <Button
               className="font-semibold text-sm text-black bg-white border rounded-none"
-              color="default"
               size="sm"
               variant="flat"
             >
