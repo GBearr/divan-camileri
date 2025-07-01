@@ -34,6 +34,8 @@ export const SomutDetailComponent: React.FC = () => {
 
   console.log("Paths : ", paths);
 
+  const localLoader = ({ src }: { src: string }) => src;
+
   return (
     <section className="px-4 md:px-6 pb-16">
       <h1 className={title()}>{somut.name}</h1>
@@ -55,6 +57,7 @@ export const SomutDetailComponent: React.FC = () => {
               <Image
                 src={src}
                 alt={`${somut.name} görseli ${i + 1}`}
+                loader={localLoader}
                 fill
                 sizes="(max-width: 768px) 100vw, 80vw"
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
